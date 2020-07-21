@@ -1,0 +1,25 @@
+  <html>
+  <body>
+    <dev><p id="ques_title">出席確認</p></dev>
+    <div class="border_dashed_separator_grn_kit"></div>
+    <div class="ques_cont">
+      <form action="http://192.168.11.50/shuseki/ques.php" method="post" id="ques1" target="form1" onSubmit="return clickBtn()"/>
+        <p>名前</p>
+        <input type="text" name="garoon_user" id="login_user" readonly>
+        <p>春の全体会議</p>
+        <input type="radio" name="kaigi" value="出席" id="attendance1">
+        <label for="attendance1" class="button_normal_grn_kit">出席</label>
+        <input type="radio" name="kaigi" value="欠席" id="absence1" checked>
+        <label for="absence1" class="button_normal_grn_kit">欠席</label>
+        <p>春の宴会</p>
+        <input type="radio" name="enkai" value="出席" id="attendance2">
+        <label for="attendance2" class="button_normal_grn_kit">出席</label>
+        <input type="radio" name="enkai" value="欠席" id="absence2" checked>
+        <label for="absence2" class="button_normal_grn_kit">欠席</label>
+        <input type="submit" value="回答する" id="answer">
+      </form>
+      <p id="thanks"></p>
+      <iframe name="form1" style="width:0px;height:0px;border:0px;"></iframe>
+    </div>
+  </body>
+  </html>

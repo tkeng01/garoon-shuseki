@@ -1,0 +1,46 @@
+p {
+  margin: 3px 0 3px 0;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+input[type=radio]:checked + label {
+  border: 1px solid #0e74dd;
+  background-color: #0e74dd;
+  color: #fff;
+}
+
+#ques_title {
+  margin: 0 0 3px 0;
+  font-size: 17px;
+}
+
+#login_user {
+  margin: 5px 0;
+  display: block;
+}
+
+#answer {
+  display: block;
+  margin: 10px 0 0 0;
+  padding: 12px;
+  min-width: 112px;
+  height: auto;
+  line-height: 1.2;
+  font-size: 16px;
+  border: 1px solid #d4321c;
+  background-color: #d4321c;
+  color: #fff
+}
+
+#thanks {
+  margin: 10px 0 0 0;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.ques_cont {
+  margin: 5px 0;
+}
